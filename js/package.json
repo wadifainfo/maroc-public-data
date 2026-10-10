@@ -1,0 +1,11 @@
+{
+  "name": "maroc-public-data",
+  "version": "0.1.0",
+  "description": "Moroccan public holidays, school breaks, civil-service concours and salaries (free Wadifa Info API, no key)",
+  "type": "module",
+  "main": "index.mjs",
+  "license": "MIT",
+  "homepage": "https://www.wadifa-info.com/developpeurs",
+  "repository": "github:wadifainfo/maroc-public-data",
+  "keywords": ["morocco", "maroc", "holidays", "jours-feries", "concours", "open-data"]
+}

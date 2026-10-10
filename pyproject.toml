@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maroc-public-data"
+version = "0.1.0"
+description = "Moroccan public holidays, school breaks, civil-service concours and salaries (free Wadifa Info API, no key)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+keywords = ["morocco", "maroc", "holidays", "jours feries", "fonction publique", "concours", "open data"]
+
+[project.urls]
+Homepage = "https://www.wadifa-info.com/developpeurs"
+Source = "https://github.com/wadifainfo/maroc-public-data"
+
+[tool.setuptools]
+packages = ["maroc_public_data"]
